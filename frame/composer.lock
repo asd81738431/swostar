@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "150858bc0e37856948f06751c63d3c66",
+    "packages": [
+        {
+            "name": "asd/swostar-frame",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../swostar",
+                "reference": "8559de3d8d89c6e33f3db0ac53a2b31bdb21de8f"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SwoStar\\": "src/"
+                },
+                "files": [
+                    "src/Supper/Helper.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "xing.guo",
+                    "email": "742728805@qq.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "asd/swostar-frame": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

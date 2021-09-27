@@ -1,0 +1,19 @@
+{
+    "name": "asd/swostar",
+    "authors": [
+        {
+            "name": "xing.guo",
+            "email": "742728805@qq.com"
+        }
+    ],
+    "require": {
+        "asd/swostar-frame": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../swostar"
+        }
+    ]
+}

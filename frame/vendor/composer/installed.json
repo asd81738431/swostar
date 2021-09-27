@@ -1,0 +1,36 @@
+{
+    "packages": [
+        {
+            "name": "asd/swostar-frame",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../swostar",
+                "reference": "8559de3d8d89c6e33f3db0ac53a2b31bdb21de8f"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SwoStar\\": "src/"
+                },
+                "files": [
+                    "src/Supper/Helper.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "xing.guo",
+                    "email": "742728805@qq.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../asd/swostar-frame"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
